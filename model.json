@@ -1,0 +1,10 @@
+{
+  "contract": 1,
+  "model": "Qwen3-Embedding-0.6B",
+  "dimension": 1024,
+  "normalize": "l2",
+  "query_prefix": "Instruct: {task}\nQuery:{query}",
+  "task": "Given a web search query, retrieve relevant passages that answer the query",
+  "chunk_chars": 2000,
+  "tokenizer": {"engine": "ParadeDB pg_search", "setting": "pdb.simple('stemmer=german', 'ascii_folding=true')"}
+}

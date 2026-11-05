@@ -1,0 +1,19 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v5.0.0
+_src_path: https://github.com/pandoscope/agentic-engineering-template
+agentic_actions_runner: ubuntu-latest
+agentic_disambiguate_roots: ''
+agentic_forge: github
+agentic_language: en
+agentic_max_file_tokens: 10000
+agentic_merge_approval_gate: true
+agentic_merge_approvers: pando-genet
+agentic_precommit: prek
+agentic_project_description: One search request and answer for every searchable service,
+    so a front end merges providers without translating
+agentic_project_kind: docs
+agentic_project_name: search-contract
+agentic_project_slug: search-contract
+agentic_repo_owner: pando-ramet
+agentic_subtemplate: template
+agentic_tracker_cli: ghx

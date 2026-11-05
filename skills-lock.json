@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "caveman": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "derived/caveman/SKILL.md",
+      "computedHash": "2d73c6735d05c88bbf8042c1528642de6cba612819d8fdab0cd7c116a67031b7"
+    },
+    "documenting-decisions": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "original/documenting-decisions/SKILL.md",
+      "computedHash": "b71f6fc8250903091477b16e0ca976b20d4d65fd7d12acd7d5025b9d4bddfe08"
+    },
+    "domain-modeling": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "derived/domain-modeling/SKILL.md",
+      "computedHash": "13a1053e36f7aed101624ed3f5bf6c64d07265db5470e61460cb9721a556dc36"
+    },
+    "grill-me": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/productivity/grill-me/SKILL.md",
+      "computedHash": "9cdbb4b8f7a3aeaef82e6230c9e823500d4a8a1214c726cf342cf9829d34fc7d"
+    },
+    "grill-with-docs": {
+      "source": "mattpocock/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/grill-with-docs/SKILL.md",
+      "computedHash": "35e62aa423aaeab6a414bcac273f56dfb17802ef2334b41b6a3b00f28196c8cf"
+    },
+    "grilling": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "derived/grilling/SKILL.md",
+      "computedHash": "d2859bf88c058495f13ccb4e3a41abc6211e3466b31d21cb0d7a2eaa10a922fb"
+    },
+    "to-spec": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "derived/to-spec/SKILL.md",
+      "computedHash": "766f9d1d8cf9d5e9093795e1d5902fcd64d2672381108ce2dca3d4f07107aeb3"
+    },
+    "writing-adrs": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "original/writing-adrs/SKILL.md",
+      "computedHash": "5eb0d86edb66a6999eb448d3c178aa03a162d55e02708ac886eabf249eb0955e"
+    },
+    "writing-prose": {
+      "source": "pandoscope/skills",
+      "sourceType": "github",
+      "skillPath": "original/writing-prose/SKILL.md",
+      "computedHash": "f106b35d2d3a4d64151bbb36abac9f7d623df867e80e65e174035512a2cf3433"
+    }
+  }
+}
