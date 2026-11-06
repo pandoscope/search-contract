@@ -98,12 +98,13 @@ jobs:
             --issue-comments --pr-comments \
             --config "$RUNNER_TEMP/detectors.yaml" \
             --token "$GH_AUDIT_TOKEN" \
-            --json --no-update --fail --log-level=-1 \
-            > "$RUNNER_TEMP/findings.jsonl" && rc=0 || rc=$?
+            --json --no-update --fail --log-level=0 \
+            > "$RUNNER_TEMP/findings.jsonl" 2> "$RUNNER_TEMP/trufflehog.log" && rc=0 || rc=$?
           # trufflehog --fail exits 183 on findings (the reporter turns
           # those red itself); any other nonzero exit is a scan failure
           # and must not pass silently.
           if [ "$rc" -ne 0 ] && [ "$rc" -ne 183 ]; then
+            tail -n 40 "$RUNNER_TEMP/trufflehog.log"
             echo "::error::trufflehog exited $rc (scan failure, not findings)"
             exit "$rc"
           fi
